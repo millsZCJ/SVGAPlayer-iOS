@@ -12,8 +12,8 @@ Pod::Spec.new do |s|
   s.homepage     = "http://code.yy.com/ued/SVGAPlayer"
   s.license      = "Apache 2.0"
   s.author       = { "PonyCui" => "cuiminghui1@yy.com" }
-  s.platform     = :ios, "7.0"
-  s.source       = { :git => "https://github.com/svga/SVGAPlayer-iOS.git", :tag => s.version }
+  s.platform     = :ios, "12.0"
+  s.source       = { :git => "https://github.com/millsZCJ/SVGAPlayer-iOS.git", :tag => s.version }
   s.subspec 'Core' do |ss|
     ss.source_files  = "Source/*.{h,m}"
     ss.requires_arc = true
